@@ -1,0 +1,35 @@
+.input-container {
+    padding: 2% 5%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-title {
+    padding: 0% 3%;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .input-text {
+    border: none;
+    height: 40px;
+    font-size: 25px;
+  
+  }
+  
+  .input-button {
+    border: none;
+    margin-left: 1.5%;
+    width: 80px;
+    height: 40px;
+  
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+  
+  .input-button:active {
+    background-color: grey;
+  }

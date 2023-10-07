@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif; /* Set a fallback font */
+}
+
+.intro-container {
+  color: white;
+}
+
+.intro-container h1 {
+  font-size: 45px;
+}
+
+.intro-container h2 {
+  font-size: 25px;
+}
+
+.intro-container h3 {
+  font-size: 35px;
+}
+
+.card-container {
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  user-select: none;
+}
+
+.front img {
+  width: 400px;
+}
+
+.back p {
+  font-size: 80px;
+  color: white;
+}
+
+.go-button {
+  width: 100px;
+  height: 50px;
+  margin: 0.5% 2%;
+  background-color: black; /* Add a background color */
+  color: white; /* Set text color to white */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none; /* Remove the outline on focus */
+}
+
+.go-button:hover {
+  background-color: green; /* Darker color on hover */
+}
